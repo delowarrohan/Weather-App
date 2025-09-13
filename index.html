@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Weather — Desktop</title>
+  <link rel="icon" href="./images/Untitled_design__9_-removebg-preview.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="page-wrap">
+    <main class="app">
+      <div class="topbar">
+        <div class="logo">
+          <div class="sun" aria-hidden="true"></div>
+          <div>Weather Now</div>
+        </div>
+        <div class="units-btn">Units ▾</div>
+      </div>
+
+      <section class="hero">
+        <h1>Lock at that weather location</h1>
+
+        <div class="search-row">
+          <div class="search"><img src="./images/download-removebg-preview.png" alt="">
+           
+            <input placeholder="Search for a place..." aria-label="search">
+          </div>
+          <button class="search-btn">Search</button>
+        </div>
+      </section>
+
+      <div class="layout">
+        <!-- LEFT -->
+        <div class="left">
+          <article class="big-card">        
+            <div class="meta">
+              <div class="place">Dhaka,bangladesh</div>
+              <div class="date">Fri day, sep 32, 2025</div>
+            </div>
+           
+            <div style="display:flex;flex-direction:column;
+            align-items:flex-end;
+            justify-content:center;">
+              <div style="display:flex;align-items:center;">
+                <!-- <div class="imoge">🌞</div> -->
+                <div class="weather-ico" aria-hidden="true">☀️</div>
+                <div class="temp">380<span style="font-size:22px;margin-left:4px;">°</span></div>
+              </div>
+            </div>
+          </article>
+
+          <div class="info-row">
+            <div class="info">
+              <div class="label">Feels Like</div>
+              <div class="value">18°</div>
+            </div>
+            <div class="info">
+              <div class="label">Humidity</div>
+              <div class="value">46%</div>
+            </div>
+            <div class="info">
+              <div class="label">Wind</div>
+              <div class="value">14 km/h</div>
+            </div>
+            <div class="info">
+              <div class="label">Precipitation</div>
+              <div class="value">0 mm</div>
+            </div>
+          </div>
+
+          <div class="tit">Weather of the past 7 deys</div>
+          <div class="daily" aria-hidden="true">
+            
+            <div class="day">
+              <div class="label">Tue</div>
+              <div class="day-ico"><img src="./images/Untitled_design__1_-removebg-preview.png" alt=""></div>
+              <div class="t">20°</div>
+            </div>
+            <div class="day">
+              <div class="label">Wed</div>
+              <div class="day-ico"><img src="./images/Untitled_design__2_-removebg-preview.png" alt=""></div>
+              <div class="t">21°</div>
+            </div>
+            <div class="day">
+              <div class="label">Thu</div>
+              <div class="day-ico"><img src="./images/Untitled_design__3_-removebg-preview.png" alt=""></div>
+              <div class="t">24°</div>
+            </div>
+            <div class="day">
+              <div class="label">Fri</div>
+              <div class="day-ico"><img src="./images/Untitled_design__4_-removebg-preview.png" alt=""></div>
+              <div class="t">25°</div>
+            </div>
+            <div class="day">
+              <div class="label">Sat</div>
+              <div class="day-ico"><img src="./images/Untitled_design__5_-removebg-preview.png" alt=""></div>
+              <div class="t">21°</div>
+            </div>
+            <div class="day">
+              <div class="label">Sun</div>
+              <div class="day-ico"><img src="./images/Untitled_design__6_-removebg-preview.png" alt=""></div>
+              <div class="t">26°</div>
+            </div>
+            <div class="day">
+              <div class="label">Mon</div>
+              <div class="day-ico"><img src="./images/Untitled_design__7_-removebg-preview.png" alt=""></div>
+              <div class="t">24°</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT -->
+        <aside class="right">
+          <div class="title">
+            <div>Hourly forecast</div>
+            <div class="day-select">Tuesday ▾</div>
+          </div>
+
+          <div class="hour-list">
+            <div class="hour"><div class="time"><img src="./images/Untitled_design__8_-removebg-preview.png" alt="">3 PM</div><div class="temp-small">20°</div></div>
+            <div class="hour"><div class="time"> <img src="./images/Untitled_design__1_-removebg-preview.png" alt="">4 PM</div><div class="temp-small">20°</div></div>
+            <div class="hour"><div class="time"><img src="./images/Untitled_design__2_-removebg-preview.png" alt="">5 PM</div><div class="temp-small">20°</div></div>
+            <div class="hour"><div class="time"><img src="./images/Untitled_design__2_-removebg-preview.png" alt="">6 PM</div><div class="temp-small">19°</div></div>
+            <div class="hour"><div class="time"><img src="./images/Untitled_design__3_-removebg-preview.png" alt="">7 PM</div><div class="temp-small">18°</div></div>
+            <div class="hour"><div class="time"><img src="./images/Untitled_design__4_-removebg-preview.png" alt="">8 PM</div><div class="temp-small">18°</div></div>
+            <div class="hour"><div class="time"><img src="./images/Untitled_design__5_-removebg-preview.png" alt="">9 PM</div><div class="temp-small">17°</div></div>
+            <div class="hour"><div class="time"><img src="./images/Untitled_design__6_-removebg-preview.png" alt="">10 PM</div><div class="temp-small">17°</div></div>
+          </div>
+        </aside>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
